@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "module": "CommonJS",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "lib": ["ES2019"],
+    "moduleResolution": "node"
+  },
+  "exclude": ["node_modules", "test", "dist", "coverage", "*.config.ts"]
+}
